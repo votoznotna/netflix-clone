@@ -1,9 +1,8 @@
 import React from "react";
 
 import { MovieInterface } from "@/types";
-// import MovieCard from "@/components/MovieCard";
+import MovieCard from "@/components/MovieCard";
 import { isEmpty } from "lodash";
-import MovieCard from "./MovieCard";
 
 interface MovieListProps {
   data: MovieInterface[];
